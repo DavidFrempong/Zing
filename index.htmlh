@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Zing- Sign In</title>
+        <link rel="stylesheet" type=”text/css” href="style.css">
+    </head>
+    <body>
+        <section class="left-iamge">
+            <div class="image">
+                <img src="Frame 1.png" alt="blue sqaure">
+            </div>
+        </section>
+        <section class="right-side">
+            <div class="top-logo">
+                <img src="Vector 1.png" alt="Zing Logo">
+            </div>
+            <div class="welcome-to-zing">
+                <h1>Welcome to Zing.</h1>
+            </div>
+            <div class="sign-in-fields">
+                <div class="username">
+                    <label for="username"><b>Username</b></label>
+                    <input type="text"  name="username" required>
+                </div>
+                <div class="password">
+                    <label for="password"><b>Password</b></label>
+                    <input type="text"  name="password" required>
+                </div>
+            </div>
+            <button class="sign-in">Sign In</button>
+            <div class="bottom-text">
+                <div class="left">
+                    <a href="#">No account? Create one <div class="blue-link">here</div></a>
+                </div>
+                <div class="right">
+                    <a href="#">Trouble signing in?</a>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
